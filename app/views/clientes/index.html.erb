@@ -1,0 +1,11 @@
+<h1>Clientes#index</h1>
+<p>Find me in app/views/clientes/index.html.erb</p>
+<h2>Cliente:</h2>
+<% @clientes.each do |cliente| %>
+<ul>
+	<li><%= cliente.id %></li>
+	<li><%= cliente.nome %></li>
+	<li><%= cliente.email%> </li>
+</ul>
+<% end %>
+
